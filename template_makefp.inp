@@ -1,0 +1,11 @@
+!
+! Using the recommended settings from Peng/Tosaporn's QM-EFP paper:
+!       DOI: https://doi.org/10.1021/acs.jpca.9b05801
+! Level of theory: RHF
+!
+ $CONTRL SCFTYP=RHF RUNTYP=MAKEFP $END
+ $MAKEFP CTVVO=.FALSE. $END
+ $BASIS
+ $SYSTEM MWORDS=1000 $END
+ $SCF DIRSCF=.TRUE. $END
+ $DATA
